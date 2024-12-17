@@ -1,6 +1,7 @@
-from morse-code-translator.py import *
+from morse-code-translator-file import translator
 
-def main():
-    print("Morse code translator.")
-    morse = input("Enter morse code: ")
-    print(translate(morse))
+class main():
+    def main():
+        print("Morse code translator.")
+        morse = input("Enter morse code: ")
+        print(translate(morse))
