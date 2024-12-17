@@ -1,6 +1,7 @@
 import re
 
 class translator():
+    
     def translate(string1: str):
         str1 = string1
         morseToText(str1)

@@ -1,4 +1,4 @@
-from morse-code-translator-file import translator
+import morse-code-translator-file.py
 
 class main():
     def main():
