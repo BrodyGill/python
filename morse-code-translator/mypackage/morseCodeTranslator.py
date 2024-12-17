@@ -2,11 +2,6 @@ import re
 
 class translator():
     
-    def translate(string1: str):
-        str1 = string1
-        morseToText(str1)
-        #sp = len(list(map(str, re.findall(" ", str1))))
-    
     def morseToText(str2):
         s2 = str2
         ms = ""
@@ -20,8 +15,13 @@ class translator():
             if ls2[i]=="-" or ls2[i]==".":
                 ms+=ls2[i]
                 continue  
-        return ms
-        #ql = use regex to get text ending at a space 
-        #use regex to get double spaces in text use for loop to check
-        #for i in sp1:
+        
+    
+    #got the decipher down
+    
+    def switch(lang):
+        lms = list(lang)
+        for j in range(0,len(lang)):
+            if lms[j] == 
+
         
