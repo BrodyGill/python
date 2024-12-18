@@ -35,7 +35,8 @@ class translator():
                 for g in range(0,len(sp)):
                     if t>0 and t==sp[g] and t-1==sp[g]:
                         d.append(" ")
-                    
+                    elif t==sp[g]:
+                d[t]=l[t]
 
             return 
         return 
